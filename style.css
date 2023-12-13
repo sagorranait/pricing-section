@@ -1,0 +1,24 @@
+.pricing-section{
+  width: 100%;
+  padding: 30px 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.pricing-section > .pricing-head{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.pricing-section > .pricing-head > h2{
+  font-size: 28px;
+}
+.pricing-section > .pricing-head > p{}
+.pricing-section > .pricing-items{}
+.pricing-section > .pricing-items > .item{}
+.pricing-section > .pricing-items > .item > .item-head{}
+.pricing-section > .pricing-items > .item > .item-head > .icon{}
+.pricing-section > .pricing-items > .item > .item-head > p{}
+.pricing-section > .pricing-items > .item > .item-price{}
+.pricing-section > .pricing-items > .item > .item-price > h4{}
+.pricing-section > .pricing-items > .item > .item-list{}
+.pricing-section > .pricing-items > .item > .item-list > ul{}
+.pricing-section > .pricing-items > .item > .item-list > ul > li{}
+.pricing-section > .pricing-items > .item > button{}
