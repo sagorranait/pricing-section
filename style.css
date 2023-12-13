@@ -23,6 +23,7 @@
   border: 1px solid #efefef;
   padding: 35px;
   text-align: center;
+  height: fit-content;
 }
 .pricing-section > .pricing-items > .item > .item-head{
   margin-bottom: 35px;
@@ -76,6 +77,12 @@
   border: 1px solid #ffb301;
   background: #ffb301;
   border-radius: 50px;
+}
+
+.pricing-section > .pricing-items > .item > p{
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 0;
 }
 
 .pricing-section > .pricing-items > .active {
