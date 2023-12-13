@@ -1,6 +1,6 @@
 .pricing-section{
   width: 100%;
-  padding: 30px 50px;
+  /* padding: 30px 50px; */
   font-family: 'Poppins', sans-serif;
 }
 .pricing-section > .pricing-head{
@@ -11,14 +11,73 @@
   font-size: 28px;
 }
 .pricing-section > .pricing-head > p{}
-.pricing-section > .pricing-items{}
-.pricing-section > .pricing-items > .item{}
-.pricing-section > .pricing-items > .item > .item-head{}
-.pricing-section > .pricing-items > .item > .item-head > .icon{}
-.pricing-section > .pricing-items > .item > .item-head > p{}
-.pricing-section > .pricing-items > .item > .item-price{}
-.pricing-section > .pricing-items > .item > .item-price > h4{}
+
+.pricing-section > .pricing-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0px 50px;
+}
+.pricing-section > .pricing-items > .item{
+  background: #fff;
+  border: 1px solid #efefef;
+  padding: 35px;
+  text-align: center;
+}
+.pricing-section > .pricing-items > .item > .item-head{
+  margin-bottom: 35px;
+}
+.pricing-section > .pricing-items > .item > .item-head > .icon{
+  width: 30px;
+  margin-bottom: 20px;
+}
+.pricing-section > .pricing-items > .item > .item-head > p {
+  margin: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.pricing-section > .pricing-items > .item > .item-price {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-section > .pricing-items > .item > .item-price > h4 {
+  margin: 0;
+  font-size: 30px;
+}
+.pricing-section > .pricing-items > .item > .item-price > span {
+  font-size: 16px;
+  margin-top: 7px;
+}
 .pricing-section > .pricing-items > .item > .item-list{}
-.pricing-section > .pricing-items > .item > .item-list > ul{}
-.pricing-section > .pricing-items > .item > .item-list > ul > li{}
-.pricing-section > .pricing-items > .item > button{}
+
+.pricing-section > .pricing-items > .item > .item-list > ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing-section > .pricing-items > .item > .item-list > ul > li{
+  padding-bottom: 20px;
+  color: #969696;
+}
+.pricing-section > .pricing-items > .item > button {
+  margin-top: 20px;
+  padding: 20px 35px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #ffb301;
+  background: #ffb301;
+  border-radius: 50px;
+}
+
+.pricing-section > .pricing-items > .active {
+  border-color: #e1002d;
+}
